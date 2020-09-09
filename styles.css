@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+margin:auto;
+text-align: center;
+}
+
+
+h1 {
+  font-size: 2rem;
+  color: rgb(253, 253, 253);
+}
+.countdown {
+    margin-top: 4rem;
+    display: inline-block;
+  /* border: 1px solid red; */
+  width: 350px;
+  color: white;
+  background-size: cover;
+  border-radius: 16px;
+  background-image: url('./img//celeb.gif');
+  box-shadow: 4px 8px 16px rgb(46, 44, 44);
+  
+}
+.time {
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: auto;
+  padding: .2rem;
+  color: white;
+}
+.time h2{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.time small{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.madeby a{
+    color: rgb(17, 233, 168);
+    text-decoration: none;
+}
